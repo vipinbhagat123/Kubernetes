@@ -3,7 +3,7 @@ apiVersion: apps/v1
 metadata:
   name: nginx-daemonsets
   namespace: nginx-vipin
-spec:
+spec: 
   selector:
     matchLabels:
       app: nginx
